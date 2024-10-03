@@ -4,7 +4,7 @@
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
 
-    echo "Gracias, $name. hemos recibido tu mensaje: $message"
+    echo "Gracias, $name. hemos recibido tu mensaje: $message.";
   } else {
     echo "Metodo de solicitud no válido";
   }
